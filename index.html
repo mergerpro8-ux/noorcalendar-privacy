@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Calendar — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #070E0A; color: #E8E2D6; line-height: 1.7;
+            padding: 0; min-height: 100vh;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
+        .header {
+            text-align: center; padding: 40px 0 20px;
+            border-bottom: 1px solid rgba(212,169,75,0.2); margin-bottom: 24px;
+        }
+        .header .icon { font-size: 48px; margin-bottom: 12px; }
+        .header h1 { color: #D4A94B; font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+        .header p { color: #8A9690; font-size: 14px; }
+
+        /* Language switcher */
+        .lang-switch {
+            display: flex; justify-content: center; gap: 12px; margin-bottom: 28px;
+        }
+        .lang-btn {
+            background: #10201A; border: 1px solid rgba(212,169,75,0.2);
+            color: #8A9690; padding: 10px 24px; border-radius: 20px;
+            cursor: pointer; font-size: 15px; transition: all 0.3s;
+        }
+        .lang-btn.active {
+            background: rgba(212,169,75,0.15); border-color: #D4A94B; color: #D4A94B;
+        }
+        .lang-btn:hover { border-color: #D4A94B; }
+
+        .highlight {
+            background: rgba(212,169,75,0.1); border: 1px solid rgba(212,169,75,0.25);
+            border-radius: 12px; padding: 20px; margin-bottom: 28px; text-align: center;
+        }
+        .highlight h2 { color: #D4A94B; font-size: 18px; margin-bottom: 6px; }
+        .highlight p { color: #8A9690; font-size: 14px; }
+        .section {
+            background: #10201A; border: 1px solid rgba(212,169,75,0.1);
+            border-radius: 12px; padding: 20px; margin-bottom: 16px;
+        }
+        .section h3 {
+            color: #D4A94B; font-size: 15px; font-weight: 700;
+            margin-bottom: 10px; display: flex; align-items: center; gap: 10px;
+        }
+        .section p { color: #8A9690; font-size: 14px; line-height: 1.7; }
+        .contact {
+            background: #10201A; border: 1px solid rgba(212,169,75,0.1);
+            border-radius: 12px; padding: 20px; margin-bottom: 16px; text-align: center;
+        }
+        .contact h3 { color: #D4A94B; font-size: 15px; margin-bottom: 8px; }
+        .contact a { color: #D4A94B; text-decoration: underline; font-size: 14px; }
+        .footer {
+            text-align: center; padding: 24px 0; color: #4E5C54; font-size: 12px;
+            border-top: 1px solid rgba(212,169,75,0.1); margin-top: 20px;
+        }
+        .lang-en, .lang-ar { display: none; }
+        .lang-en.visible, .lang-ar.visible { display: block; }
+        .rtl { direction: rtl; text-align: right; }
+        .rtl .section h3 { flex-direction: row-reverse; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">🌙</div>
+            <h1>Noor Calendar</h1>
+            <p>Privacy Policy · سياسة الخصوصية</p>
+        </div>
+
+        <div class="lang-switch">
+            <div class="lang-btn active" onclick="switchLang('en')">🇬🇧 English</div>
+            <div class="lang-btn" onclick="switchLang('ar')">🇸🇦 العربية</div>
+        </div>
+
+        <!-- ═══ ENGLISH ═══ -->
+        <div class="lang-en visible" id="lang-en">
+            <div class="highlight">
+                <h2>Your privacy is fully protected.</h2>
+                <p>Noor Calendar collects no personal data. Everything stays on your device.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>📦</span> Data We Collect</h3>
+                <p>We collect no personal data. All information (tasks, settings, reminders) is stored locally on your device only and is never sent to any server.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>🌐</span> Internet Access</h3>
+                <p>Noor Calendar works fully offline. All prayer times, Hijri calculations, and holiday data are built into the app. No network requests are made.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>📍</span> Location</h3>
+                <p>The app does not access your device location (GPS). Prayer times are based on the city you manually select from the built-in list of 34 cities.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>🔔</span> Notifications</h3>
+                <p>If you enable reminders, the app may request notification permission. All notifications are generated on your device only and are not connected to any server.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>🤝</span> Third-Party Services</h3>
+                <p>Noor Calendar does not use any third-party analytics, advertising SDKs, or tracking tools. No data is shared with any third party under any circumstances.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>👶</span> Children's Privacy</h3>
+                <p>The app is suitable for all ages. We do not collect any personal information from anyone, including children under 13.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>🔒</span> Data Security</h3>
+                <p>All data is stored locally on your device. If you uninstall the app, all locally stored data is permanently deleted.</p>
+            </div>
+
+            <div class="contact">
+                <h3>📬 Contact Us</h3>
+                <a href="mailto:support@noorcalendar.app">support@noorcalendar.app</a>
+            </div>
+        </div>
+
+        <!-- ═══ ARABIC ═══ -->
+        <div class="lang-ar rtl" id="lang-ar">
+            <div class="highlight">
+                <h2>خصوصيتك محمية بالكامل.</h2>
+                <p>تقويم نور لا يجمع أي بيانات شخصية. كل شيء يبقى على جهازك.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>📦</span> البيانات التي نجمعها</h3>
+                <p>لا نجمع أي بيانات شخصية. جميع المعلومات (المهام، الإعدادات، التذكيرات) مخزّنة محلياً على جهازك فقط ولا تُرسل أبداً إلى أي خادم.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>🌐</span> الوصول إلى الإنترنت</h3>
+                <p>يعمل تقويم نور بالكامل دون اتصال بالإنترنت. جميع أوقات الصلاة وحسابات التقويم الهجري وبيانات الأعياد مضمّنة في التطبيق. لا تُجرى أي طلبات شبكية.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>📍</span> الموقع الجغرافي</h3>
+                <p>التطبيق لا يطلب ولا يصل إلى موقع جهازك (GPS). تُحسب أوقات الصلاة بناءً على المدينة التي تختارها يدوياً من القائمة المدمجة (34 مدينة).</p>
+            </div>
+
+            <div class="section">
+                <h3><span>🔔</span> الإشعارات</h3>
+                <p>إذا فعّلت التذكيرات، قد يطلب التطبيق إذناً لإرسال إشعارات. جميع الإشعارات تُنشأ على جهازك فقط وغير متصلة بأي خادم.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>🤝</span> خدمات الطرف الثالث</h3>
+                <p>لا يستخدم تقويم نور أي تحليلات طرف ثالث أو حزم SDK إعلانية أو أدوات تتبع. لا تتم مشاركة أي بيانات مع أي طرف ثالث تحت أي ظرف.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>👶</span> خصوصية الأطفال</h3>
+                <p>التطبيق مناسب لجميع الأعمار. لا نجمع أي معلومات شخصية من أحد، بما في ذلك الأطفال دون سن 13 عاماً.</p>
+            </div>
+
+            <div class="section">
+                <h3><span>🔒</span> أمان البيانات</h3>
+                <p>جميع البيانات مخزّنة محلياً على جهازك. إذا أزلت التطبيق، تُحذف جميع البيانات المخزّنة محلياً نهائياً.</p>
+            </div>
+
+            <div class="contact">
+                <h3>📬 تواصل معنا</h3>
+                <a href="mailto:support@noorcalendar.app">support@noorcalendar.app</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            Last updated: March 2026 · آخر تحديث: مارس 2026<br>
+            com.noorcalendar.app
+        </div>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            document.getElementById('lang-en').classList.toggle('visible', lang === 'en');
+            document.getElementById('lang-ar').classList.toggle('visible', lang === 'ar');
+            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
